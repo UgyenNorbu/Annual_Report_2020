@@ -1,5 +1,6 @@
-book_filename: "annual_report"
+book_filename: "RSTA_annual_report"
 delete_merged_file: true
+repo: https://github.com/UgyenNorbu/Annual_Report_2020
 language:
   ui:
     chapter_name: "Chapter "
