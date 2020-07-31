@@ -1,8 +1,10 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
 %
 \documentclass[
+  12pt,
 ]{book}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
@@ -36,9 +38,13 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Annual Report 2019-20},
-  pdfauthor={TDD, RSTA},
-  hidelinks,
+  pdftitle={Annual Report for Financial Year 2019-20},
+  pdfauthor={Road Safety \& Transport Authority},
+  colorlinks=true,
+  linkcolor=Maroon,
+  filecolor=Maroon,
+  citecolor=Blue,
+  urlcolor=Blue,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
 \usepackage{color}
@@ -111,19 +117,57 @@
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
-\title{Annual Report 2019-20}
-\author{TDD, RSTA}
+\title{Annual Report for Financial Year 2019-20}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Ministry of Informations \& Communications}
+\author{Road Safety \& Transport Authority}
 \date{July 2020}
 
 \begin{document}
 \maketitle
 
 {
+\hypersetup{linkcolor=}
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
+\listoftables
+\listoffigures
+\hypertarget{year-in-review}{%
+\chapter*{Year in Review}\label{year-in-review}}
+\addcontentsline{toc}{chapter}{Year in Review}
+
+This Financial Year 2019-20 was a mixed year for the Authority in terms of its performance and achievements.
+
+As the year witnessed the outbreak of covid-19 pandemic, it has, not surprisingly, affected the deliverables of the Authority. In particular, construction and maintenance work were affected due to shortage of labor and material. However, despite the pandemic, the Authority has collected Nu. 420,024,771.15/- (Four hundred Twenty million Twenty Four thousand Seven hundred and Seventy One) in revenue. Bus terminal at Thimphu, Phuentsholing, Gelephu, Samdrupjongkhar and Mongar regional offices has been renovated, 20 additional passenger transport service routes were introduced. The authority also approved Bhutan Airport Shuttle Bus Services (BASS) and Premium Passenger bus service between Thimphu-Paro and Thimphu-Phuentsholing respectively.
+
+The Authority has procured 5 new vehicles replacing the aging pool vehicle fleets which were over decade-and-half old. Further, budget for new uniforms for all eligible staff were secured with Uniform Code and Conduct. This ensures annual budgetary space for annual issuance of the uniform to staff which will foster a sense of belonging among the staff and reinforce professionalism while delivering the Authority's statutory mandates.
+
+Tashi Delek!
+
+Pemba Wangchuk\\
+Director General
+
 \hypertarget{intro}{%
 \chapter{Introduction}\label{intro}}
+
+The Road Safety \& Transport Authority has 5 Regional OFfices and 22 Base OFfices in 19 dzongkhags.
+
+This is from knittr
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{/Users/ugyennorbu/Documents/GitHub/Annual_Report_2020/data/RSTA_org} 
+
+}
+
+\caption{RSTA Organogram}\label{fig:rsta-org}
+\end{figure}
 
 You can label chapter and section titles using \texttt{\{\#label\}} after them, e.g., we can reference Chapter \ref{intro}. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \ref{methods}.
 
@@ -190,8 +234,6 @@ Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
 \bottomrule
 \end{tabular}
 \end{table}
-
-You can write citations, too. For example, we are using the \textbf{bookdown} package \citep{R-bookdown} in this sample book, which was built on top of R Markdown and \textbf{knitr} \citep{xie2015}.
 
 \hypertarget{literature}{%
 \chapter{Literature}\label{literature}}
