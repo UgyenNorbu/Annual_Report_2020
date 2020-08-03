@@ -1,20 +1,23 @@
 --- 
 title: "Annual Report for Financial Year 2019-20"
-subtitle: "Ministry of Informations & Communications"
 author: "Road Safety & Transport Authority"
 date: "July 2020"
+subtitle: Ministry of Informations & Communications
 colorlinks: yes
 lot: yes
 lof: yes
 fontsize: 12pt
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography:
+- book.bib
+- packages.bib
 biblio-style: apalike
 link-citations: yes
 github-repo: github.com/UgyenNorbu/Annual_Report_2020
-url: 'www.rsta.gov.bt'
-description: "This annual report is published by Road Safety & Transport Authority, MoIC."
+url: www.rsta.gov.bt
+description: This annual report is published by Road Safety & Transport Authority,
+  MoIC.
 ---
 
 # Year in Review {-}
@@ -27,5 +30,7 @@ The Authority has procured 5 new vehicles replacing the aging pool vehicle fleet
 
 Tashi Delek!  
 
+```{block html.tag='signature', type='flushright'}
 Pemba Wangchuk  
-Director General
+**Director General**
+```

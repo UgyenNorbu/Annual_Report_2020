@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@UgyenNorbu 
-rstudio
-/
-bookdown
-115
-2k885
-Code
-Issues
-108
-Pull requests
-6
-Actions
-Security
-Insights
-bookdown/inst/examples/css/toc.css
-@yihui
-yihui move CSS related to TOC to toc.css (only the html_chapters() format u…
-…
-Latest commit d8ca5dd on Feb 22, 2016
- History
- 1 contributor
-124 lines (124 sloc)  2.35 KB
-  
 #TOC ul,
 #TOC li,
 #TOC span,
