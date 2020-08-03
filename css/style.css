@@ -3,11 +3,13 @@ h1 {
   color: #196079;
   font-family: Verdana;
   background-color: #E0E0E0;
+  border-bottom:solid 7px #FF5733;
+  padding:20px;
 }
 
 h2, h3 {
   text-align: center;
-  color: #00897B;
+  color: #196079;
   font-family: Verdana;
 }
 
@@ -16,27 +18,25 @@ p{
   font-family: Georgia;
 }
 
-signature{
+.flushright{
   text-align: right;
   font-family: Georgia;
 }
 
-
-p.caption {
+.caption {
   color: #777;
   margin-top: 10px;
 }
+
 p code {
   white-space: inherit;
 }
+
 pre {
   word-break: normal;
   word-wrap: normal;
 }
+
 pre code {
   white-space: inherit;
-}
-
-.section level1 unnumbered{
-  color: blue;
 }

@@ -29,8 +29,10 @@ As the year witnessed the outbreak of covid-19 pandemic, it has, not surprisingl
 The Authority has procured 5 new vehicles replacing the aging pool vehicle fleets which were over decade-and-half old. Further, budget for new uniforms for all eligible staff were secured with Uniform Code and Conduct. This ensures annual budgetary space for annual issuance of the uniform to staff which will foster a sense of belonging among the staff and reinforce professionalism while delivering the Authority’s statutory mandates.
 
 Tashi Delek!  
-
-```{block html.tag='signature', type='flushright'}
+```{block html.tag='sig', type='flushright'}
+<br>
+<br>
+<br>
 Pemba Wangchuk  
 **Director General**
 ```
